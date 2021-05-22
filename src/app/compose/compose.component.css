@@ -1,0 +1,165 @@
+body{
+    margin-top:20px;
+    background:#eee;
+    }
+    .lg-side{
+        width: 63%;
+        position: absolute;
+        left: 34.5%;
+        top: 2%;
+    }   
+    .mail {
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .mail aside {
+        display: table-cell;
+        float: none;
+        height: 100%;
+        padding: 0;
+        vertical-align: top;
+    }
+    .mail .sm-side {
+        width: 26%;
+        background: #ecf0f1;
+        border-radius: 4px 0 0 4px;
+        -webkit-border-radius: 4px 0 0 4px;
+    }
+    .mail .lg-side {
+        width: 75%;
+        background: #fff;
+        border-radius: 0px 4px 4px 0;
+        -webkit-border-radius: 0px 4px 4px 0;
+    }
+    .inbox-body {
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.39);
+    }   
+    .btn-com {
+        background:  hsl(167deg 100% 37%);
+        padding: 12px 0;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+    h5{
+        padding:5px 0px 0px 10px;
+    }
+    ul.nav  {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .divider {
+        border-bottom: 1px solid #d5d8df;
+    }
+    ul.nav li {
+        display: inline-block;
+        line-height: 45px;
+        width: 100%;
+    }
+    ul.nav li a  {
+        color: #6a6a6a;
+        line-height: 45px;
+        width: 100%;
+        display: inline-block;
+        padding: 0 20px;
+    }
+    ul.nav li a:hover, ul.nav li.active a, ul.nav li a:focus  {
+        color: #6a6a6a;
+        background: #d5d7de;
+    }
+    ul.nav li a i {
+        padding-right: 10px;
+        font-size: 16px;
+        color: #6a6a6a;
+    } 
+    ul.nav li a span.label {
+        margin-top: 13px;
+    }
+    .comp a
+    {
+        float:right;    
+        margin-top: 3%;
+    }
+    .comp h2
+    {
+        float:left;
+        padding-left: 15px;
+    }
+    .mail .mail-body 
+    {
+                    padding-left: 15px;
+                    margin-top: 3%;
+                    left: 2%;
+                    color:grey;
+                    font-family: 'open Sans', sans-serif;
+                    font-size: 16px;
+    }
+    .cat
+    {
+     padding:5px 5px 10px 10px;
+    }
+    .cat i{
+     padding:0px 5px 5px 0px;
+    }
+    .cat #doc{
+        color: red;
+    }
+    .cat #social
+   {
+    color:hsl(0deg 0% 40%);
+   }
+   .cat #advertising
+   {
+    color: hsl(177deg 54% 67%);
+   }
+   .cat #clients
+   {
+    color: orange;
+   }
+   .lab
+   {
+     padding:0px 0px 10px 20px; 
+     font-size: 12px;
+   }
+   .lab a{
+     padding-right: 5px; 
+     background:hsl(0deg 0% 100%);
+     color: hsl(204deg 2% 41%);
+   }
+    .text-write
+    {
+        padding:0px 10px 10px 15px;
+    }
+    .icon{
+        padding-top:30px;
+        background: #f9f8f8;
+    }
+    .icon ul li{
+        padding:50px 50px 0ps 10px;
+        width:50px;
+        height:50px;
+    }
+    .mail-body #sent
+    {
+        background: #1bb394;
+        color: white;
+        font-size: medium;
+    }
+    .spin-icon {
+        background: #1ab394;
+        position: absolute;
+        padding: 7px 10px 7px 13px;
+        border-radius: 20px 0 0 20px;
+        font-size: 16px;
+        top: 1%;
+        left: 96.7%;
+        width: 40px;
+        color: #fff;
+        cursor: pointer;
+    }

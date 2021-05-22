@@ -1,0 +1,175 @@
+body{
+    margin-top:20px;
+    background:#eee;
+    }    
+    .mail {
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    } 
+    .mail aside {
+        display: table-cell;
+        float: none;
+        height: 100%;
+        padding: 0;
+        vertical-align: top;
+    }
+    .mail .sm-side {
+        width: 26%;
+        background: #ecf0f1;
+        border-radius: 4px 0 0 4px;
+        -webkit-border-radius: 4px 0 0 4px;
+    }
+    .mail .lg-side {
+        width: 75%;
+        background: #fff;
+        border-radius: 0px 4px 4px 0;
+        -webkit-border-radius: 0px 4px 4px 0;
+    }
+    .inbox-body {
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.39);
+    }   
+    .btn-com {
+        background:  hsl(167deg 100% 37%);
+        padding: 12px 0;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+    ul.inbox-nav  {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .divider {
+        border-bottom: 1px solid #d5d8df;
+    } 
+    ul.inbox-nav li {
+        display: inline-block;
+        line-height: 45px;
+        width: 100%;
+    }
+    ul.inbox-nav li a  {
+        color: #6a6a6a;
+        line-height: 45px;
+        width: 100%;
+        display: inline-block;
+        padding: 0 20px;
+    }
+    ul.inbox-nav li a:hover, ul.inbox-nav li.active a, ul.inbox-nav li a:focus  {
+        color: #6a6a6a;
+        background: #d5d7de;
+    }
+    ul.inbox-nav li a i {
+        padding-right: 10px;
+        font-size: 16px;
+        color: #6a6a6a;
+    } 
+    ul.inbox-nav li a span.label {
+        margin-top: 13px;
+    }
+    .head {
+        padding:30px 0px 2px 20px;
+        background:white;
+        color:grey;
+        border-radius: 0 4px 0 0;
+        -webkit-border-radius: 0 4px 0 0;
+        min-height: 80px;
+    }
+    .head  h3 {
+        margin: 0;
+        display: inline-block;
+        font-weight: 300;
+    }
+    .head  .sr-input {
+        height: 30px;
+        border: none;
+        box-shadow: none;
+        border-style: ridge;
+        float: left;
+        border-radius: 3px 0 0 3px;
+        color:#8a8a8a;
+    }
+    .head  .sr-btn {
+        height: 30px;
+        border: none;
+        background: hsl(167deg 100% 37%);
+        color: #fff;
+        float: right;
+        border-radius: 0 4px 4px 0;
+        -webkit-border-radius: 0 4px 4px 0;
+    }
+    h5{
+        padding:5px 0px 0px 10px;
+    }
+    .table-inbox {
+        border: 1px solid #d3d3d3;
+        margin-bottom: 0;
+    }
+    .table-inbox tr td{
+        padding: 12px !important;
+    }
+    .table-inbox tr td:hover{
+        cursor: pointer;
+    }
+    .table-inbox tr.unread td {
+        font-weight: 600;
+        background: #f7f7f7;
+    }  
+   .arrows
+   {
+       float: right;   
+   }
+   .buttons
+   {
+        padding-bottom: 20px;
+        padding-left: 20px;
+   }
+   .cat
+   {
+    padding:5px 5px 10px 10px;
+   }
+   .cat i{
+    padding:0px 5px 5px 0px;
+   }
+   .cat #doc{
+       color: red;
+   }
+  .cat #social
+   {
+    color:hsl(0deg 0% 40%);
+   }
+   .cat #advertising
+   {
+    color: hsl(177deg 54% 67%);
+   }
+   .cat #clients
+   {
+    color: orange;
+   }
+  .lab
+  {
+    padding:0px 0px 10px 20px; 
+    font-size: 12px;
+  }
+  .lab a{
+    padding-right: 5px; 
+    background:hsl(0deg 0% 100%);
+    color: hsl(204deg 2% 41%);
+  }
+  .spin-icon {
+    background: #1ab394;
+    position: absolute;
+    padding: 7px 10px 7px 13px;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    top: 1%;
+    left: 96.7%;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+}

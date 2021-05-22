@@ -1,0 +1,75 @@
+<head>
+    <title>Compose Mail</title>
+    <link rel="stylesheet" href="compose.component.css">
+</head>
+                <aside class="lg-side">
+                        <div class="comp">
+                            <h2 style="color: grey;">
+                                Compose mail
+                            </h2>
+                            <a href="app.component.html" class="btn btn-danger btn-sm"><i class="fa fa-times"></i>
+                                Discard</a>
+                            <a href="app.component.html" class="btn btn-default btn-sm"><i
+                                    class="fa fa-pencil"></i> Draft</a>
+                        </div>
+                        <div align=center class="spin-icon">
+                            <i class="fa fa-cogs fa-spin"></i>
+                        </div>
+                        <div [formGroup]="form" class="mail">
+                            <div  class="mail-body">
+                                <div class="form-group row"><label class="col-sm-2 col-form-label">To:</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control"
+                                            value="alex.smith@corporat.com" id="to" formControlName="to"></div>
+                                </div>
+                                <div class="form-group row"><label class="col-sm-2 col-form-label">Subject:</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" id="subject" formControlName="subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <ul>
+                                    <li class="fa fa-magic"></li>
+                                    <li class="fa fa-bold"></li>
+                                    <li class="fa fa-underline"></li>
+                                    <li class="fa fa-eraser"></li>
+                                    <li class="fa fa-font"></li>
+                                    <li class="fa fa-list-ul"></li>
+                                    <li class="fa fa-list-ol"></li>
+                                    <li class="fa fa-indent"></li>
+                                    <li class="fa fa-table"></li>
+                                    <li class="fa fa-link"></li>
+                                    <li class="fa fa-photo"></li>
+                                    <li class="fa fa-video-camera"></li>
+                                    <li class="fa fa-arrows-alt"></li>
+                                    <li class="fa fa-code"></li>
+                                    <li class="fa fa-question"></li>
+                                </ul>
+                            </div>
+                            <div class="mail-text h-200">
+                                <div class="text-write">
+                                    <h3 style="color: grey;">Hello Jonathan! </h3>
+                                    dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has
+                                        been the
+                                        industry's</strong> standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                    with the
+                                    release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with.
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="mail-body text-right ">
+                                <a routerLink="/sent" (click)="sent()" class="btn btn-sm" id="sent"><i
+                                        class="fa fa-reply"></i> Send</a>
+
+                                <a href="aap.component.html" class="btn btn-default btn-sm"><i class="fa fa-times"></i>
+                                    Discard</a>
+                                <a href="app.component.html" class="btn btn-default btn-sm"><i class="fa fa-pencil"></i>
+                                    Draft</a>
+                            </div>
+                        </div>
+                    </aside>
